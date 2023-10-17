@@ -1,0 +1,31 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Category {
+  id String @id @default(uuid()) // esta definindo que é a chave primaria
+  name String
+  slug String
+  imageUrl String
+  products Product[] // informando que a categoria tera varios produtos
+}
+
+model Product {
+  id String @id @default(uuid())
+  name String
+  slug String
+  description String
+  basePrice Decimal @db.Decimal(8, 2) // esta definindo que tera no maximo 8 casas antes da virgula e 2 depois
+  imageUrl String
+  category Category @relation(fields: [categoryId], references: [id]) // definindo a relaçao com o outro model
+  categoryId String
+  discountPercent Int @default(0)
+}
