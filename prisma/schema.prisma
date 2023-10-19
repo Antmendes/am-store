@@ -24,10 +24,10 @@ model Product {
   slug String
   description String
   basePrice Decimal @db.Decimal(8, 2) // esta definindo que tera no maximo 8 casas antes da virgula e 2 depois
-  imageUrl String
+  imageUrls String[]
   category Category @relation(fields: [categoryId], references: [id]) // definindo a relaçao com o outro model
   categoryId String
-  discountPercent Int @default(0)
+  discountPercentage Int @default(0)
 }
 
 model Account {
