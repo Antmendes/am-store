@@ -34,7 +34,7 @@ export default async function Home() {
     }
   })
   return (
-    <div className="flex flex-col gap-8">
+    <div className="flex flex-col gap-8 py-8">
        <PromoBanner 
           src="/banner-home01.svg"
           alt="Até 55% de desconto esse mês!"
