@@ -1,4 +1,5 @@
 import { prismaClient } from "@/lib/prisma";
+import ProductImages from "./components/product-images";
 
 interface ProductDetailsPageProps {
     params: {
@@ -16,7 +17,9 @@ const ProductDetailsPage = async ({params: { slug }}: ProductDetailsPageProps ) 
     if (!product) return null
 
     return ( 
-        <h1>{product.name}</h1>
+        <div>
+            <ProductImages imageUrls={product.imageUrls} name={product.name} />
+        </div>
      );
 }
  
