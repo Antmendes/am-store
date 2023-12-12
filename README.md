@@ -39,3 +39,9 @@ npm install
 # executar o projeto
 npm rum dev
 ```
+
+# Autor
+
+Antonio Mendes
+
+<a src="https://www.linkedin.com/in/antonio-mendes-junior/">https://www.linkedin.com/in/antonio-mendes-junior/</a>
