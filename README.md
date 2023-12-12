@@ -6,7 +6,11 @@ A aplicação consiste em um e-comerce completo desenvolvido em next. Componente
 
 # Layout
 
-   https://github.com/Antmendes/am-store/blob/main/src/assets/2023-12-12%2010-17-43.mp4
+   
+
+https://github.com/Antmendes/am-store/assets/97694520/d90f3a76-ddca-48fb-9964-5817bfbfd8b6
+
+
 
    ![Web 1](https://github.com/Antmendes/am-store/blob/main/src/assets/Captura%20de%20tela%20de%202023-12-12%2009-04-30.png) 
 
