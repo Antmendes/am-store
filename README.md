@@ -8,8 +8,8 @@ A aplicação consiste em um e-comerce completo desenvolvido em next. Componente
 
    ![Web 1](https://github.com/Antmendes/am-store/blob/main/src/assets/Captura%20de%20tela%20de%202023-12-12%2009-04-30.png)
 
-   ![Web 1](https://github.com/Antmendes/am-store/blob/main/src/assets/Captura%20de%20tela%20de%202023-12-12%2009-41-03.png)
+   ![Web 2](https://github.com/Antmendes/am-store/blob/main/src/assets/Captura%20de%20tela%20de%202023-12-12%2009-41-03.png)
 
-   ![Web 1](https://github.com/Antmendes/am-store/blob/main/src/assets/Captura%20de%20tela%20de%202023-12-12%2009-04-30.png)
+   ![Web 3](https://github.com/Antmendes/am-store/blob/main/src/assets/Captura%20de%20tela%20de%202023-12-12%2009-41-16.png)
 
    ![Web 1](https://github.com/Antmendes/am-store/blob/main/src/assets/Captura%20de%20tela%20de%202023-12-12%2009-04-30.png)
