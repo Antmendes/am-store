@@ -13,3 +13,29 @@ A aplicação consiste em um e-comerce completo desenvolvido em next. Componente
    ![Web 3](https://github.com/Antmendes/am-store/blob/main/src/assets/Captura%20de%20tela%20de%202023-12-12%2009-41-16.png)
 
    ![Web 4](https://github.com/Antmendes/am-store/blob/main/src/assets/Captura%20de%20tela%20de%202023-12-12%2009-41-54.png)
+
+   # Tecnologias utilizadas
+
+   - Next / React         
+   - Typescript
+   - Shadcn
+   - Tailwind
+   - Prisma
+   - Supabase
+   - Hooks
+   - Stripe
+   - Next-auth
+
+   # Como executar o projeto
+    Pré-requisitos: npm 
+
+```bash
+# clonar repositório
+git clone https://github.com/Antmendes/am-store.git
+
+# instalar dependências
+npm install
+
+# executar o projeto
+npm rum dev
+```
